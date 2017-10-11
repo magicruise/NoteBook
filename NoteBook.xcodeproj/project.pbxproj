@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		308AE67D1F56E5FC0084CDB2 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308AE67C1F56E5FC0084CDB2 /* Book.swift */; };
+		308AE67F1F56EAB00084CDB2 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308AE67E1F56EAB00084CDB2 /* AddBookViewController.swift */; };
+		30A1E0B71F619B5E0099B9F3 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1E0B61F619B5E0099B9F3 /* BookDetailViewController.swift */; };
 		30C44A081F3C8CD000FF4EDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C44A071F3C8CD000FF4EDD /* AppDelegate.swift */; };
-		30C44A0A1F3C8CD000FF4EDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C44A091F3C8CD000FF4EDD /* ViewController.swift */; };
 		30C44A0D1F3C8CD000FF4EDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C44A0B1F3C8CD000FF4EDD /* Main.storyboard */; };
 		30C44A0F1F3C8CD000FF4EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C44A0E1F3C8CD000FF4EDD /* Assets.xcassets */; };
 		30C44A121F3C8CD000FF4EDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C44A101F3C8CD000FF4EDD /* LaunchScreen.storyboard */; };
+		30CD5B231F4356100034810E /* BookShelfTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD5B221F4356100034810E /* BookShelfTableViewController.swift */; };
+		30CD5B251F43564C0034810E /* BookShelfTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD5B241F43564C0034810E /* BookShelfTableViewCell.swift */; };
+		30CD5B291F435B620034810E /* NoteBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CD5B281F435B620034810E /* NoteBookViewController.swift */; };
+		30DDA6831F8387D70085AD23 /* EditBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DDA6821F8387D70085AD23 /* EditBookViewController.swift */; };
+		30F614981F695DD00061C2A2 /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F614971F695DD00061C2A2 /* MainSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		308AE67C1F56E5FC0084CDB2 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		308AE67E1F56EAB00084CDB2 /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
+		30A1E0B61F619B5E0099B9F3 /* BookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 		30C44A041F3C8CD000FF4EDD /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C44A071F3C8CD000FF4EDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30C44A091F3C8CD000FF4EDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30C44A0C1F3C8CD000FF4EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30C44A0E1F3C8CD000FF4EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30C44A111F3C8CD000FF4EDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C44A131F3C8CD000FF4EDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CD5B221F4356100034810E /* BookShelfTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookShelfTableViewController.swift; sourceTree = "<group>"; };
+		30CD5B241F43564C0034810E /* BookShelfTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookShelfTableViewCell.swift; sourceTree = "<group>"; };
+		30CD5B281F435B620034810E /* NoteBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteBookViewController.swift; sourceTree = "<group>"; };
+		30DDA6821F8387D70085AD23 /* EditBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBookViewController.swift; sourceTree = "<group>"; };
+		30F614971F695DD00061C2A2 /* MainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A1E0B81F619B8E0099B9F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C44A071F3C8CD000FF4EDD /* AppDelegate.swift */,
+				30C44A0E1F3C8CD000FF4EDD /* Assets.xcassets */,
+				30C44A101F3C8CD000FF4EDD /* LaunchScreen.storyboard */,
+				30C44A131F3C8CD000FF4EDD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		30C449FB1F3C8CD000FF4EDD = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +79,16 @@
 		30C44A061F3C8CD000FF4EDD /* NoteBook */ = {
 			isa = PBXGroup;
 			children = (
-				30C44A071F3C8CD000FF4EDD /* AppDelegate.swift */,
-				30C44A091F3C8CD000FF4EDD /* ViewController.swift */,
+				308AE67E1F56EAB00084CDB2 /* AddBookViewController.swift */,
+				30CD5B281F435B620034810E /* NoteBookViewController.swift */,
 				30C44A0B1F3C8CD000FF4EDD /* Main.storyboard */,
-				30C44A0E1F3C8CD000FF4EDD /* Assets.xcassets */,
-				30C44A101F3C8CD000FF4EDD /* LaunchScreen.storyboard */,
-				30C44A131F3C8CD000FF4EDD /* Info.plist */,
+				30DDA6821F8387D70085AD23 /* EditBookViewController.swift */,
+				30F614971F695DD00061C2A2 /* MainSplitViewController.swift */,
+				308AE67C1F56E5FC0084CDB2 /* Book.swift */,
+				30A1E0B61F619B5E0099B9F3 /* BookDetailViewController.swift */,
+				30CD5B241F43564C0034810E /* BookShelfTableViewCell.swift */,
+				30CD5B221F4356100034810E /* BookShelfTableViewController.swift */,
+				30A1E0B81F619B8E0099B9F3 /* Supporting Files */,
 			);
 			path = NoteBook;
 			sourceTree = "<group>";
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30C44A0A1F3C8CD000FF4EDD /* ViewController.swift in Sources */,
+				30F614981F695DD00061C2A2 /* MainSplitViewController.swift in Sources */,
+				30CD5B231F4356100034810E /* BookShelfTableViewController.swift in Sources */,
+				308AE67F1F56EAB00084CDB2 /* AddBookViewController.swift in Sources */,
+				30CD5B291F435B620034810E /* NoteBookViewController.swift in Sources */,
 				30C44A081F3C8CD000FF4EDD /* AppDelegate.swift in Sources */,
+				30A1E0B71F619B5E0099B9F3 /* BookDetailViewController.swift in Sources */,
+				30CD5B251F43564C0034810E /* BookShelfTableViewCell.swift in Sources */,
+				30DDA6831F8387D70085AD23 /* EditBookViewController.swift in Sources */,
+				308AE67D1F56E5FC0084CDB2 /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LSMSE.d.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -278,6 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LSMSE.d.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +338,7 @@
 				30C44A181F3C8CD000FF4EDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
